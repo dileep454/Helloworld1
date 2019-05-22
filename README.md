@@ -6,4 +6,3 @@ edited for building the project
 
 command changed for building
 added
-branc changed for pull requ
