@@ -8,3 +8,4 @@ command changed for building
 added
 
 Added for pull request
+master changed
