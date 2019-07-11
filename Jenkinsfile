@@ -20,17 +20,7 @@ node {
    def artifactory_password='admin123'
    def dversion='$TAG'
    
-   /****************************************
-   *  Checkout code from GIT
-   *****************************************
-   stage('Checkout Code from GIT') 
-   {
-      
-        echo "INFO => Checking out from URL: ${GIT_URL} and BRANCH: ${GIT_BRANCH}"
-                   checkout([$class: 'GitSCM', branches: [[name: "*/${GIT_BRANCH}"]], userRemoteConfigs: [[credentialsId: 'git-credentials', url: "${GIT_URL}"]]])
-                
-   }
-  */
+   
    /*******************************************
    *  Build stage to trigger the maven build
    ********************************************/
