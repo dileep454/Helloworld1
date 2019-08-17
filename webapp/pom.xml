@@ -10,9 +10,9 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>HelloworldExample</artifactId>
+  <artifactId>HelloWorldExample</artifactId>
   <packaging>war</packaging>
-  <name>HelloworldExample</name>
+  <name>HelloWorldExample</name>
   <description>Webapp.</description>
 
   <build>
